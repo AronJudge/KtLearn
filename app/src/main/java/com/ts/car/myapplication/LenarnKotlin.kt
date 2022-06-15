@@ -20,6 +20,19 @@ fun main() {
     println(c)
 
     println(methodName(a,b));
+
+    // [0,10]
+    val range = 0..10
+    // [0,10)
+    val range1 = 0 until 10
+
+    for (i in 0..10 step  2) {
+        println(i)
+    }
+
+    for (i in 10 downTo 1) {
+        println(i)
+    }
 }
 
 fun methodName(parm1 :Int, parm2: Int) : Int {
@@ -77,8 +90,7 @@ fun checkNumber(num : Number) {
 }
 
 // Kotlin中判断字
-//符串或对象是否相等可以直接使用==关键字, 而不用像Java那样调用equals()
-fun
+//符串或对象是否相等可以直接使用==关键字而不用像Java那样调用equals()
 
 
 
